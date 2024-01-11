@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <nav class="logo">
+                <a href="index.html">Logo</a>
+                <ul class="nav-menu">
+                   <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#empreendimento">O Empreendimento</a></li>
+                    <li class="nav-link"><a href="#plantas">Plantas</a></li>
+                    <li class="nav-link"><a href="#">Localização</a></li>
+                    <li class="nav-link"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>        
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <img id="img" src="./images/piscina.png" alt="">
+            <p id="lazer">LAZER À UM PASSO</p>
+            <p id="as"><a href="#contato">MARQUE UMA VISITA</a></p>
+
+        </section>
+        <section id="empreendimento">
+            <h1>O EMPREENDIMENTO</h1>
+            <div class="text-emp">    
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia voluptatum atque blanditiis dignissimos, totam aliquam ad consectetur eos ab pariatur nostrum at voluptas suscipit distinctio debitis fuga et unde inventore.
+                Id sed, earum sapiente corrupti suscipit omnis autem possimus! Incidunt recusandae dolores, perspiciatis rem quaerat tenetur numquam nihil tempore quo debitis voluptates voluptate, possimus, reiciendis dolore blanditiis illum ea quisquam!
+                Distinctio voluptates aut exercitationem culpa veniam, consectetur mollitia commodi aliquid rem est dolorum. Tempora at tempore ratione eius molestiae velit porro, impedit et ab voluptates perferendis, exercitationem inventore in voluptatibus!</p>
+            </div>
+                <img src="./images/casa.png" alt="">
+              <div class="fotos1">
+                    <img src="./images/foto1.png" alt="">
+                </div>
+                <div class="fotos2">
+                    <img src="./images/fotos2.png" alt="">
+                </div>
+                <div class="fotos3">    
+                    <img src="./images/fotos3.png" alt="">
+                </div>
+        </section>
+        <section id="plantas">
+            <img src="./images/quarto2.png" id="figura" alt="2quartos">
+            <div class="plantas-text">
+                <h2>Plantas</h2>
+                <div class="button"></div>
+                    <button id="q3" onclick="q3()" class="btn1">3 QUARTOS</button>
+                    <button id="q2" onclick="q2()" class="btn1">2 QUARTOS</button>
+                    <button class="btn1">COBERTURA</button>
+                </div>
+            </div>
+        </section>
+        <section class="local">
+            <div class="local-text"> 
+                   <h2>LOCALIZAÇÃO</h2>
+                <p>Rua itaperuna, 100 Santa Rosa<br>
+                    - Pé Pequeno<br>
+                    Niterói - Rj, 24240-070
+                </p>
+                <div class="icons">
+                    <img id="shop" src="./images/shop.png" alt="">
+                    <img id="pet" src="./images/pet.png" alt="">
+                    <img id="park" src="./images/park.png" alt="">
+                    <img id="bank" src="./images/bank.png">
+                    <img id="bike" src="images/bike.png" alt="">
+                </div>    
+            </div>
+            <img src="./images/local.png" alt="">
+        </section>
+        <section id="contato">
+            <img src="./images/piscina.png">
+            <div class="contact-text">    
+                <h2 >Ficou interessado?</h2>
+                <p>Preencha o formulario abaixo e um de nossos consultores entrará em contato</p>
+           
+                <form id="form" action="#" method="post">
+                    <input id="a1" type="text" placeholder="Como devemos te chamar?">
+                    <input id="a2" type="text" placeholder="Seu Telefone">
+                    <input id="a3" type="text" placeholder="Seu melhor e-mail">
+                    <input id="check" type="checkbox"> Li e aceito os termos de uso dos dados conforme indicado na Política de Privacidade.
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>    
+
+        </section>
+    </main>
+</body>
+</html>
